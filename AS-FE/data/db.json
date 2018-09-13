@@ -1,0 +1,435 @@
+{ "Accounts": [
+	{
+        "name": "Attentia",
+        "segment": "Delivery",
+        "sector": "HTS",
+        "am": "Patrick Van Den Broeck",
+        "tm": "Davy Vande Capelle",
+        "hrProxy": "Liesbet Van Nerum",
+        "nrOfPersons": 10,
+        "links": {
+            "wiki": "https://aewiki.atlassian.net/wiki/spaces/AC/pages/772341905/Attentia+-+Accountbarometer+2018",
+            "powerbi": "https://powerbi.microsoft.com/en-us/",
+            "beehive": "https://beehive.ae.be/",
+            "targetprocess": "https://www.targetprocess.com/"
+        },
+        "history": {
+            "lastReviewed": "Q3 2018"
+        },
+        "barometer": {
+            "partnership": "Middelmatig",
+            "portfolio": "Middelmatig",
+            "projects": "OK",
+            "people": "OK",
+            "profitability": "Helemaal niet OK",
+            "potentialGrowth": "Middelmatig"
+        },
+        "logo": ""
+	},
+	{
+        "name": "Attentia",
+        "segment": "Delivery",
+        "sector": "HTS",
+        "am": "Patrick Van Den Broeck",
+        "tm": "Davy Vande Capelle",
+        "hrProxy": "Liesbet Van Nerum",
+        "nrOfPersons": 10,
+        "links": {
+            "wiki": "https://aewiki.atlassian.net/wiki/spaces/AC/pages/772341905/Attentia+-+Accountbarometer+2018",
+            "powerbi": "https://powerbi.microsoft.com/en-us/",
+            "beehive": "https://beehive.ae.be/",
+            "targetprocess": "https://www.targetprocess.com/"
+        },
+        "history": {
+            "lastReviewed": "Q3 2018"
+        },
+        "barometer": {
+            "partnership": "Middelmatig",
+            "portfolio": "Middelmatig",
+            "projects": "OK",
+            "people": "OK",
+            "profitability": "Helemaal niet OK",
+            "potentialGrowth": "Middelmatig"
+        },
+        "logo": ""
+	},
+	{
+        "name": "Attentia",
+        "segment": "Delivery",
+        "sector": "HTS",
+        "am": "Patrick Van Den Broeck",
+        "tm": "Davy Vande Capelle",
+        "hrProxy": "Liesbet Van Nerum",
+        "nrOfPersons": 10,
+        "links": {
+            "wiki": "https://aewiki.atlassian.net/wiki/spaces/AC/pages/772341905/Attentia+-+Accountbarometer+2018",
+            "powerbi": "https://powerbi.microsoft.com/en-us/",
+            "beehive": "https://beehive.ae.be/",
+            "targetprocess": "https://www.targetprocess.com/"
+        },
+        "history": {
+            "lastReviewed": "Q3 2018"
+        },
+        "barometer": {
+            "partnership": "Middelmatig",
+            "portfolio": "Middelmatig",
+            "projects": "OK",
+            "people": "OK",
+            "profitability": "Helemaal niet OK",
+            "potentialGrowth": "Middelmatig"
+        },
+        "logo": ""
+	},
+	{
+        "name": "Attentia",
+        "segment": "Delivery",
+        "sector": "HTS",
+        "am": "Patrick Van Den Broeck",
+        "tm": "Davy Vande Capelle",
+        "hrProxy": "Liesbet Van Nerum",
+        "nrOfPersons": 10,
+        "links": {
+            "wiki": "https://aewiki.atlassian.net/wiki/spaces/AC/pages/772341905/Attentia+-+Accountbarometer+2018",
+            "powerbi": "https://powerbi.microsoft.com/en-us/",
+            "beehive": "https://beehive.ae.be/",
+            "targetprocess": "https://www.targetprocess.com/"
+        },
+        "history": {
+            "lastReviewed": "Q3 2018"
+        },
+        "barometer": {
+            "partnership": "Middelmatig",
+            "portfolio": "Middelmatig",
+            "projects": "OK",
+            "people": "OK",
+            "profitability": "Helemaal niet OK",
+            "potentialGrowth": "Middelmatig"
+        },
+        "logo": ""
+	},
+	{
+        "name": "Attentia",
+        "segment": "Delivery",
+        "sector": "HTS",
+        "am": "Patrick Van Den Broeck",
+        "tm": "Davy Vande Capelle",
+        "hrProxy": "Liesbet Van Nerum",
+        "nrOfPersons": 10,
+        "links": {
+            "wiki": "https://aewiki.atlassian.net/wiki/spaces/AC/pages/772341905/Attentia+-+Accountbarometer+2018",
+            "powerbi": "https://powerbi.microsoft.com/en-us/",
+            "beehive": "https://beehive.ae.be/",
+            "targetprocess": "https://www.targetprocess.com/"
+        },
+        "history": {
+            "lastReviewed": "Q3 2018"
+        },
+        "barometer": {
+            "partnership": "Middelmatig",
+            "portfolio": "Middelmatig",
+            "projects": "OK",
+            "people": "OK",
+            "profitability": "Helemaal niet OK",
+            "potentialGrowth": "Middelmatig"
+        },
+        "logo": ""
+	},
+	{
+        "name": "Attentia",
+        "segment": "Delivery",
+        "sector": "HTS",
+        "am": "Patrick Van Den Broeck",
+        "tm": "Davy Vande Capelle",
+        "hrProxy": "Liesbet Van Nerum",
+        "nrOfPersons": 10,
+        "links": {
+            "wiki": "https://aewiki.atlassian.net/wiki/spaces/AC/pages/772341905/Attentia+-+Accountbarometer+2018",
+            "powerbi": "https://powerbi.microsoft.com/en-us/",
+            "beehive": "https://beehive.ae.be/",
+            "targetprocess": "https://www.targetprocess.com/"
+        },
+        "history": {
+            "lastReviewed": "Q3 2018"
+        },
+        "barometer": {
+            "partnership": "Middelmatig",
+            "portfolio": "Middelmatig",
+            "projects": "OK",
+            "people": "OK",
+            "profitability": "Helemaal niet OK",
+            "potentialGrowth": "Middelmatig"
+        },
+        "logo": ""
+	},
+	{
+        "name": "Attentia",
+        "segment": "Delivery",
+        "sector": "HTS",
+        "am": "Patrick Van Den Broeck",
+        "tm": "Davy Vande Capelle",
+        "hrProxy": "Liesbet Van Nerum",
+        "nrOfPersons": 10,
+        "links": {
+            "wiki": "https://aewiki.atlassian.net/wiki/spaces/AC/pages/772341905/Attentia+-+Accountbarometer+2018",
+            "powerbi": "https://powerbi.microsoft.com/en-us/",
+            "beehive": "https://beehive.ae.be/",
+            "targetprocess": "https://www.targetprocess.com/"
+        },
+        "history": {
+            "lastReviewed": "Q3 2018"
+        },
+        "barometer": {
+            "partnership": "Middelmatig",
+            "portfolio": "Middelmatig",
+            "projects": "OK",
+            "people": "OK",
+            "profitability": "Helemaal niet OK",
+            "potentialGrowth": "Middelmatig"
+        },
+        "logo": ""
+	},
+	{
+        "name": "Attentia",
+        "segment": "Delivery",
+        "sector": "HTS",
+        "am": "Patrick Van Den Broeck",
+        "tm": "Davy Vande Capelle",
+        "hrProxy": "Liesbet Van Nerum",
+        "nrOfPersons": 10,
+        "links": {
+            "wiki": "https://aewiki.atlassian.net/wiki/spaces/AC/pages/772341905/Attentia+-+Accountbarometer+2018",
+            "powerbi": "https://powerbi.microsoft.com/en-us/",
+            "beehive": "https://beehive.ae.be/",
+            "targetprocess": "https://www.targetprocess.com/"
+        },
+        "history": {
+            "lastReviewed": "Q3 2018"
+        },
+        "barometer": {
+            "partnership": "Middelmatig",
+            "portfolio": "Middelmatig",
+            "projects": "OK",
+            "people": "OK",
+            "profitability": "Helemaal niet OK",
+            "potentialGrowth": "Middelmatig"
+        },
+        "logo": ""
+	},
+	{
+        "name": "Attentia",
+        "segment": "Delivery",
+        "sector": "HTS",
+        "am": "Patrick Van Den Broeck",
+        "tm": "Davy Vande Capelle",
+        "hrProxy": "Liesbet Van Nerum",
+        "nrOfPersons": 10,
+        "links": {
+            "wiki": "https://aewiki.atlassian.net/wiki/spaces/AC/pages/772341905/Attentia+-+Accountbarometer+2018",
+            "powerbi": "https://powerbi.microsoft.com/en-us/",
+            "beehive": "https://beehive.ae.be/",
+            "targetprocess": "https://www.targetprocess.com/"
+        },
+        "history": {
+            "lastReviewed": "Q3 2018"
+        },
+        "barometer": {
+            "partnership": "Middelmatig",
+            "portfolio": "Middelmatig",
+            "projects": "OK",
+            "people": "OK",
+            "profitability": "Helemaal niet OK",
+            "potentialGrowth": "Middelmatig"
+        },
+        "logo": ""
+	},
+	{
+        "name": "Attentia",
+        "segment": "Delivery",
+        "sector": "HTS",
+        "am": "Patrick Van Den Broeck",
+        "tm": "Davy Vande Capelle",
+        "hrProxy": "Liesbet Van Nerum",
+        "nrOfPersons": 10,
+        "links": {
+            "wiki": "https://aewiki.atlassian.net/wiki/spaces/AC/pages/772341905/Attentia+-+Accountbarometer+2018",
+            "powerbi": "https://powerbi.microsoft.com/en-us/",
+            "beehive": "https://beehive.ae.be/",
+            "targetprocess": "https://www.targetprocess.com/"
+        },
+        "history": {
+            "lastReviewed": "Q3 2018"
+        },
+        "barometer": {
+            "partnership": "Middelmatig",
+            "portfolio": "Middelmatig",
+            "projects": "OK",
+            "people": "OK",
+            "profitability": "Helemaal niet OK",
+            "potentialGrowth": "Middelmatig"
+        },
+        "logo": ""
+	},
+	{
+        "name": "Attentia",
+        "segment": "Delivery",
+        "sector": "HTS",
+        "am": "Patrick Van Den Broeck",
+        "tm": "Davy Vande Capelle",
+        "hrProxy": "Liesbet Van Nerum",
+        "nrOfPersons": 10,
+        "links": {
+            "wiki": "https://aewiki.atlassian.net/wiki/spaces/AC/pages/772341905/Attentia+-+Accountbarometer+2018",
+            "powerbi": "https://powerbi.microsoft.com/en-us/",
+            "beehive": "https://beehive.ae.be/",
+            "targetprocess": "https://www.targetprocess.com/"
+        },
+        "history": {
+            "lastReviewed": "Q3 2018"
+        },
+        "barometer": {
+            "partnership": "Middelmatig",
+            "portfolio": "Middelmatig",
+            "projects": "OK",
+            "people": "OK",
+            "profitability": "Helemaal niet OK",
+            "potentialGrowth": "Middelmatig"
+        },
+        "logo": ""
+	},
+	{
+        "name": "Attentia",
+        "segment": "Delivery",
+        "sector": "HTS",
+        "am": "Patrick Van Den Broeck",
+        "tm": "Davy Vande Capelle",
+        "hrProxy": "Liesbet Van Nerum",
+        "nrOfPersons": 10,
+        "links": {
+            "wiki": "https://aewiki.atlassian.net/wiki/spaces/AC/pages/772341905/Attentia+-+Accountbarometer+2018",
+            "powerbi": "https://powerbi.microsoft.com/en-us/",
+            "beehive": "https://beehive.ae.be/",
+            "targetprocess": "https://www.targetprocess.com/"
+        },
+        "history": {
+            "lastReviewed": "Q3 2018"
+        },
+        "barometer": {
+            "partnership": "Middelmatig",
+            "portfolio": "Middelmatig",
+            "projects": "OK",
+            "people": "OK",
+            "profitability": "Helemaal niet OK",
+            "potentialGrowth": "Middelmatig"
+        },
+        "logo": ""
+	},
+	{
+        "name": "Attentia",
+        "segment": "Delivery",
+        "sector": "HTS",
+        "am": "Patrick Van Den Broeck",
+        "tm": "Davy Vande Capelle",
+        "hrProxy": "Liesbet Van Nerum",
+        "nrOfPersons": 10,
+        "links": {
+            "wiki": "https://aewiki.atlassian.net/wiki/spaces/AC/pages/772341905/Attentia+-+Accountbarometer+2018",
+            "powerbi": "https://powerbi.microsoft.com/en-us/",
+            "beehive": "https://beehive.ae.be/",
+            "targetprocess": "https://www.targetprocess.com/"
+        },
+        "history": {
+            "lastReviewed": "Q3 2018"
+        },
+        "barometer": {
+            "partnership": "Middelmatig",
+            "portfolio": "Middelmatig",
+            "projects": "OK",
+            "people": "OK",
+            "profitability": "Helemaal niet OK",
+            "potentialGrowth": "Middelmatig"
+        },
+        "logo": ""
+	},
+	{
+        "name": "Attentia",
+        "segment": "Delivery",
+        "sector": "HTS",
+        "am": "Patrick Van Den Broeck",
+        "tm": "Davy Vande Capelle",
+        "hrProxy": "Liesbet Van Nerum",
+        "nrOfPersons": 10,
+        "links": {
+            "wiki": "https://aewiki.atlassian.net/wiki/spaces/AC/pages/772341905/Attentia+-+Accountbarometer+2018",
+            "powerbi": "https://powerbi.microsoft.com/en-us/",
+            "beehive": "https://beehive.ae.be/",
+            "targetprocess": "https://www.targetprocess.com/"
+        },
+        "history": {
+            "lastReviewed": "Q3 2018"
+        },
+        "barometer": {
+            "partnership": "Middelmatig",
+            "portfolio": "Middelmatig",
+            "projects": "OK",
+            "people": "OK",
+            "profitability": "Helemaal niet OK",
+            "potentialGrowth": "Middelmatig"
+        },
+        "logo": ""
+	},
+	{
+        "name": "Attentia",
+        "segment": "Delivery",
+        "sector": "HTS",
+        "am": "Patrick Van Den Broeck",
+        "tm": "Davy Vande Capelle",
+        "hrProxy": "Liesbet Van Nerum",
+        "nrOfPersons": 10,
+        "links": {
+            "wiki": "https://aewiki.atlassian.net/wiki/spaces/AC/pages/772341905/Attentia+-+Accountbarometer+2018",
+            "powerbi": "https://powerbi.microsoft.com/en-us/",
+            "beehive": "https://beehive.ae.be/",
+            "targetprocess": "https://www.targetprocess.com/"
+        },
+        "history": {
+            "lastReviewed": "Q3 2018"
+        },
+        "barometer": {
+            "partnership": "Middelmatig",
+            "portfolio": "Middelmatig",
+            "projects": "OK",
+            "people": "OK",
+            "profitability": "Helemaal niet OK",
+            "potentialGrowth": "Middelmatig"
+        },
+        "logo": ""
+	},
+	{
+        "name": "Attentia",
+        "segment": "Delivery",
+        "sector": "HTS",
+        "am": "Patrick Van Den Broeck",
+        "tm": "Davy Vande Capelle",
+        "hrProxy": "Liesbet Van Nerum",
+        "nrOfPersons": 10,
+        "links": {
+            "wiki": "https://aewiki.atlassian.net/wiki/spaces/AC/pages/772341905/Attentia+-+Accountbarometer+2018",
+            "powerbi": "https://powerbi.microsoft.com/en-us/",
+            "beehive": "https://beehive.ae.be/",
+            "targetprocess": "https://www.targetprocess.com/"
+        },
+        "history": {
+            "lastReviewed": "Q3 2018"
+        },
+        "barometer": {
+            "partnership": "Middelmatig",
+            "portfolio": "Middelmatig",
+            "projects": "OK",
+            "people": "OK",
+            "profitability": "Helemaal niet OK",
+            "potentialGrowth": "Middelmatig"
+        },
+        "logo": ""
+	}
+]
+}
