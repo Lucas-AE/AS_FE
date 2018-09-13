@@ -13,6 +13,9 @@ import { ChartComponent } from './overview/chart/chart.component';
 import { ChartInfoComponent } from './overview/chart-info/chart-info.component';
 import { SegmentsOverviewComponent } from './overview/segments-overview/segments-overview.component';
 import { SegmentComponent } from './overview/segment/segment.component';
+import { InfoComponent } from './detail/info/info.component';
+import { BarometerComponent } from './detail/barometer/barometer.component';
+import { HistoriekComponent } from './detail/historiek/historiek.component';
 
 const appRoutes: Routes = [
   { path: 'detail', component: DetailPageComponent },
@@ -32,7 +35,10 @@ const appRoutes: Routes = [
     ChartComponent,
     ChartInfoComponent,
     SegmentsOverviewComponent,
-    SegmentComponent
+    SegmentComponent,
+    InfoComponent,
+    BarometerComponent,
+    HistoriekComponent
   ],
   imports: [
     BrowserModule,
