@@ -11,9 +11,11 @@ import { AE_Account } from '../../models/AE-account';
 })
 export class OverviewPageComponent implements OnInit {
 
+  accounts: AE_Account[];
+
   constructor(@Inject('IApiService') private apiService: IApiService) { }
 
   ngOnInit() {
-    this.apiService.getAccounts().subscribe(e => console.log(e));
+    this.apiService.getAccounts().subscribe(e => this.accounts = e);
   }
 }

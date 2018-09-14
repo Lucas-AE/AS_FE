@@ -1,8 +1,3 @@
 <div>
-  <app-segment></app-segment>
-  <app-segment></app-segment>
-  <app-segment></app-segment>
-  <app-segment></app-segment>
-  <app-segment></app-segment>
-  <app-segment></app-segment>
+  <app-segment *ngFor='let segment of segments' name='{{segment}}' [accounts]='accounts'></app-segment>
 </div>
