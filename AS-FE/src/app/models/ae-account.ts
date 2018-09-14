@@ -56,7 +56,7 @@ export class Moment {
 
     constructor(description: string, date: string) {
         this.description = description;
-        this.date = string;
+        this.date = date;
     }
 }
 
