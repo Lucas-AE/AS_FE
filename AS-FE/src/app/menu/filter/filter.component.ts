@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FilterComponent implements OnInit {
 
+  selected: string = "Sector";
+  options: string[] = ["Finance", "Utilities", "West", "East"];
+
   constructor() { }
 
   ngOnInit() {
   }
 
+  change(option: string) {
+    this.selected = option;
+  }
 }

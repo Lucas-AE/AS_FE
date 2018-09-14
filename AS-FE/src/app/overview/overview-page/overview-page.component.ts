@@ -1,4 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
+import { IApiService } from '../../api/interfaces';
+import { map } from 'rxjs/operators';
+import { AE_Account } from '../../models/AE-account';
+
 
 @Component({
   selector: 'app-overview-page',
@@ -7,9 +11,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OverviewPageComponent implements OnInit {
 
-  constructor() { }
+  constructor(@Inject('IApiService') private apiService: IApiService) { }
 
   ngOnInit() {
+    this.apiService.getAccounts().subscribe(e => console.log(e));
   }
-
 }

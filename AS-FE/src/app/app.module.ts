@@ -17,6 +17,7 @@ import { SegmentComponent } from './overview/segment/segment.component';
 import { InfoComponent } from './detail/info/info.component';
 import { BarometerComponent } from './detail/barometer/barometer.component';
 import { HistoriekComponent } from './detail/historiek/historiek.component';
+import { MockApiService } from './api/mock-api.service';
 
 const appRoutes: Routes = [
   { path: 'detail', component: DetailPageComponent },
@@ -46,7 +47,7 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),
     NgbModule
   ],
-  providers: [],
+  providers: [{ provide: 'IApiService', useClass: MockApiService }],
   bootstrap: [
     AppComponent
   ]

@@ -1,4 +1,4 @@
-{ "Accounts": [
+export let accounts = [
 	{
         "name": "Attentia",
         "segment": "Delivery",
@@ -14,7 +14,10 @@
             "targetprocess": "https://www.targetprocess.com/"
         },
         "history": {
-            "lastReviewed": "Q3 2018"
+            "lastReviewed": "Q3 2018",
+            "moments": [
+                {"description": "Van startup naar delivery", "date": "Jan 2014"},
+            ]
         },
         "barometer": {
             "partnership": "Middelmatig",
@@ -324,4 +327,3 @@
         "logo": ""
 	}
 ]
-}
