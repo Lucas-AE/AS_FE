@@ -1,7 +1,9 @@
 <div>
-  segment {{name}} works!
+  <div style="text-align:center;border:1px solid">
+{{name}}
+</div>
 
   <div *ngFor='let account of accounts'>
-    -- {{account.name}}
+  <i class="material-icons">trending_flat</i>   {{account.name}}
   </div>
 </div>
