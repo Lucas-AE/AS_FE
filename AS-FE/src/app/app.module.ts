@@ -49,8 +49,7 @@ const appRoutes: Routes = [
   ],
   providers: [{ provide: 'IApiService', useClass: MockApiService }],
   bootstrap: [
-    AppComponent,
-    SegmentsOverviewComponent
+    AppComponent
   ]
 })
 export class AppModule { }
