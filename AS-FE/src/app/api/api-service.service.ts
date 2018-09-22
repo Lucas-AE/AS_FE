@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { IApiService } from './interfaces';
-import { AE_Account } from '../models/AE-account';
+import { AE_Account } from '../models/ae_account';
 
 @Injectable({
   providedIn: 'root'

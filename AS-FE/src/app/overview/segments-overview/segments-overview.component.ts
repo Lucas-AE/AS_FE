@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { AE_Account } from '../../models/AE-account';
+import { AE_Account } from '../../models/ae_account';
 
 @Component({
   selector: 'app-segments-overview',

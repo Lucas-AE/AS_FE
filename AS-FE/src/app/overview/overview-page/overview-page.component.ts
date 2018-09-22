@@ -1,7 +1,7 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { IApiService } from '../../api/interfaces';
 import { map } from 'rxjs/operators';
-import { AE_Account } from '../../models/AE-account';
+import { AE_Account } from '../../models/ae_account';
 
 
 @Component({
