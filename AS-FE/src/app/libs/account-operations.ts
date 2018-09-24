@@ -1,4 +1,4 @@
-import { AE_Account } from "../models/AE-account";
+import { AE_Account } from "../models/ae_account";
 
 export function getAmountInSegment(accounts: AE_Account[], segment: string) {
     return getAccountsInSegment(accounts, segment).length;

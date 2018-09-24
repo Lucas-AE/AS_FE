@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, Inject } from '@angular/core';
-import { AE_Account } from '../../models/AE-account';
+import { AE_Account } from '../../models/ae_account';
 import { IApiService } from '../../api/interfaces';
 import { getAccountsInSegment } from '../../libs/account-operations';
 

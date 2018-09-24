@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { IApiService } from './interfaces';
 import { accounts } from '../../data/db';
-import { AE_Account, Links, Barometer, History, Moment } from '../models/AE-account';
+import { AE_Account, Links, Barometer, History, Moment } from '../models/ae_account';
 
 @Injectable()
 export class MockApiService implements IApiService {
