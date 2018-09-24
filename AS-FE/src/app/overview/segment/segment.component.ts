@@ -1,7 +1,8 @@
 import { Component, OnInit, Input, Inject } from '@angular/core';
 import { AE_Account } from '../../models/ae_account';
-import { IApiService } from '../../api/interfaces';
+import { IApiService, IObserver } from '../../interfaces';
 import { getAccountsInSegment } from '../../libs/account-operations';
+import { FilterService } from '../../filters/filter.service';
 
 @Component({
   selector: 'app-segment',
@@ -16,9 +17,7 @@ export class SegmentComponent implements OnInit {
   @Input()
   accounts: AE_Account[];
 
-  constructor(@Inject('IApiService') private apiService: IApiService) { }
+  constructor() { }
 
-  ngOnInit() {
-    this.accounts = getAccountsInSegment(this.accounts, this.name);
-  }
+  ngOnInit() { }
 }

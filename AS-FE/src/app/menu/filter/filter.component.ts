@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Inject } from '@angular/core';
+import { IApiService, IObserver } from '../../interfaces';
+import { FilterService } from '../../filters/filter.service';
 
 @Component({
   selector: 'app-filter',
@@ -7,15 +9,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FilterComponent implements OnInit {
 
-  selected: string = "Sector";
-  options: string[] = ["Finance", "Utilities", "West", "East"];
+  @Input()
+  selector: string;
 
-  constructor() { }
+  selected: string;
+
+  options: string[];
+
+  constructor(@Inject('IApiService') private apiService: IApiService,
+    @Inject('FilterService') private filterService: FilterService) { }
 
   ngOnInit() {
+    this.apiService.getFilterItems(this.selector).subscribe(e => this.options = e);
+    this.selected = this.selector;
   }
 
   change(option: string) {
     this.selected = option;
+    this.filterService.onchange(this.selector, option);
   }
 }

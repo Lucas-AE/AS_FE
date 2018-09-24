@@ -1,6 +1,5 @@
 import { Component, OnInit, Inject } from '@angular/core';
-import { IApiService } from '../../api/interfaces';
-import { map } from 'rxjs/operators';
+import { IApiService } from '../../interfaces';
 import { AE_Account } from '../../models/ae_account';
 
 

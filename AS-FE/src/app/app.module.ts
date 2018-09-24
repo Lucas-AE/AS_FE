@@ -18,6 +18,9 @@ import { InfoComponent } from './detail/info/info.component';
 import { BarometerComponent } from './detail/barometer/barometer.component';
 import { HistoriekComponent } from './detail/historiek/historiek.component';
 import { MockApiService } from './api/mock-api.service';
+import { FilterService } from './filters/filter.service';
+import { SectorPipe } from './filters/sector.pipe';
+import { SegmentPipe } from './filters/segment.pipe';
 
 const appRoutes: Routes = [
   { path: 'detail', component: DetailPageComponent },
@@ -40,14 +43,19 @@ const appRoutes: Routes = [
     SegmentComponent,
     InfoComponent,
     BarometerComponent,
-    HistoriekComponent
+    HistoriekComponent,
+    SectorPipe,
+    SegmentPipe,
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes),
     NgbModule
   ],
-  providers: [{ provide: 'IApiService', useClass: MockApiService }],
+  providers: [
+    { provide: 'IApiService', useClass: MockApiService },
+    { provide: 'FilterService', useClass: FilterService }
+  ],
   bootstrap: [
     AppComponent
   ]

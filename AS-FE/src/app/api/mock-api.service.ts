@@ -1,15 +1,21 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { IApiService } from './interfaces';
+import { IApiService } from '../interfaces';
 import { accounts } from '../../data/db';
 import { AE_Account, Links, Barometer, History, Moment } from '../models/ae_account';
 
 @Injectable()
 export class MockApiService implements IApiService {
 
+  private accounts: AE_Account[];
+
   constructor() { }
 
   getAccounts(): Observable<AE_Account[]> {
+    if (this.accounts) {
+      return of(this.accounts);
+    }
+
     let output: AE_Account[] = [];
     accounts.map(e => {
       let links = new Links(e.links.wiki, e.links.powerbi, e.links.beehive, e.links.targetprocess);
@@ -22,6 +28,34 @@ export class MockApiService implements IApiService {
       let history = new History(e.history.lastReviewed, moments);
       output.push(new AE_Account(e.name, e.segment, e.sector, e.am, e.tm, e.hrProxy, e.nrOfPersons, links, history, barometer, e.logo));
     });
+    return of(output);
+  }
+
+  getFilterItems(selector: string): Observable<string[]> {
+    if(!selector) {
+      return of([]);
+    }
+
+    if (selector.toLowerCase() === 'sector') {
+      return this.getAllSectors();
+    } else {
+      return of([]);
+    }
+  }
+
+  getAllSectors(): Observable<string[]> {
+    if (!this.accounts) {
+      this.getAccounts().subscribe(e => this.accounts = e);
+    }
+
+    let output: string[] = [];
+
+    this.accounts.map(e => {
+      if(!output.includes(e.sector)) {
+        output.push(e.sector);
+      }
+    });
+
     return of(output);
   }
 }
