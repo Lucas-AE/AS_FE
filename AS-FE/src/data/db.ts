@@ -27,7 +27,7 @@ export let accounts = [
             "profitability": "Helemaal niet OK",
             "potentialGrowth": "Middelmatig"
         },
-        "logo": ""
+        "logo": "attentia.png"
 	},
 	{
         "name": "KBC",
@@ -54,7 +54,7 @@ export let accounts = [
             "profitability": "OK",
             "potentialGrowth": "OK"
         },
-        "logo": ""
+        "logo": "kbc.png"
 	},
 	{
         "name": "Callexcell",
@@ -81,7 +81,7 @@ export let accounts = [
             "profitability": "",
             "potentialGrowth": ""
         },
-        "logo": ""
+        "logo": "callexcell.png"
 	},
 	{
         "name": "Fednot",
@@ -108,7 +108,7 @@ export let accounts = [
             "profitability": "OK",
             "potentialGrowth": "OK"
         },
-        "logo": ""
+        "logo": "fednot.png"
 	},
 	{
         "name": "Essent",
@@ -135,7 +135,7 @@ export let accounts = [
             "profitability": "Middelmatig",
             "potentialGrowth": "Helemaal niet OK"
         },
-        "logo": ""
+        "logo": "essent.png"
 	},
 	{
         "name": "Sibelga",
@@ -162,7 +162,7 @@ export let accounts = [
             "profitability": "OK",
             "potentialGrowth": "Middelmatig"
         },
-        "logo": ""
+        "logo": "sibelga.png"
 	},
 	{
         "name": "Ergo",
@@ -189,7 +189,7 @@ export let accounts = [
             "profitability": "OK",
             "potentialGrowth": "OK"
         },
-        "logo": ""
+        "logo": "ergo.png"
 	},
 	{
         "name": "GS1",
@@ -216,7 +216,7 @@ export let accounts = [
             "profitability": "OK",
             "potentialGrowth": "OK"
         },
-        "logo": ""
+        "logo": "gs1.png"
 	},
 	{
         "name": "SESVanderhave",
@@ -243,7 +243,7 @@ export let accounts = [
             "profitability": "OK",
             "potentialGrowth": "Middelmatig"
         },
-        "logo": ""
+        "logo": "ses.png"
 	},
 	{
         "name": "VDAB",
@@ -270,7 +270,7 @@ export let accounts = [
             "profitability": "OK",
             "potentialGrowth": "OK"
         },
-        "logo": ""
+        "logo": "vdab.png"
 	},
 	{
         "name": "Colruyt",
@@ -297,7 +297,7 @@ export let accounts = [
             "profitability": "OK",
             "potentialGrowth": "OK"
         },
-        "logo": ""
+        "logo": "colly.png"
 	},
 	{
         "name": "Argenta",
@@ -324,6 +324,6 @@ export let accounts = [
             "profitability": "OK",
             "potentialGrowth": "OK"
         },
-        "logo": ""
+        "logo": "argenta.png"
 	}
 ]
