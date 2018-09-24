@@ -22,7 +22,7 @@ export class AE_Account {
         this.links = links;
         this.history = history;
         this.barometer = barometer;
-        this.logo = logo;
+        this.logo = "src/data/images/"+logo;
     }
 }
 
