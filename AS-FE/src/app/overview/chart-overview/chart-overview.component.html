@@ -1,4 +1,14 @@
-<div>
-  <app-chart></app-chart>
-  <app-chart-info></app-chart-info>
+<div class="chart-overview">
+
+  <ngb-tabset (tabChange)="setSelectedTab($event)">
+    <ngb-tab title="Partnership" [id]="'partnership'"></ngb-tab>
+    <ngb-tab title="Portfolio" [id]="'portfolio'"></ngb-tab>
+    <ngb-tab title="Projects" [id]="'projects'"></ngb-tab>
+    <ngb-tab title="People" [id]="'people'"></ngb-tab>
+    <ngb-tab title="Profitability" [id]="'profitability'"></ngb-tab>
+    <ngb-tab title="PotentialGrowth" [id]="'potentialGrowth'"></ngb-tab>
+  </ngb-tabset>
+
+  <app-chart [category]="selectedTab" [accountList]="this.accountList"></app-chart>
+  <app-chart-info [category]="selectedTab" [accountList]="this.accountList"></app-chart-info>
 </div>

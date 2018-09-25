@@ -1,3 +1,33 @@
-<div>
-  chart-info works!
+<div class="chart-info">
+
+  <div class="row">
+    <div class="col-4">
+      <div class="row">
+        OK
+      </div>
+
+      <div class="row" *ngFor="let account of accountList | barometerState:category:'OK'">
+        {{ account.name }}
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="row">
+        Middelmatig
+      </div>
+
+      <div class="row" *ngFor="let account of accountList | barometerState:category:'Middelmatig'">
+        {{ account.name }}
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="row">
+        Niet OK
+      </div>
+
+      <div class="row" *ngFor="let account of accountList | barometerState:category:'Helemaal niet OK'">
+        {{ account.name }}
+      </div>
+    </div>
+  </div>
+
 </div>
