@@ -27,7 +27,7 @@ import { SegmentComponent } from './overview/segment/segment.component';
 import { SegmentsOverviewComponent } from './overview/segments-overview/segments-overview.component';
 
 const appRoutes: Routes = [
-  { path: 'detail', component: DetailPageComponent },
+  { path: 'detail/:account_name', component: DetailPageComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: OverviewPageComponent }
 ];

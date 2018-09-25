@@ -4,6 +4,6 @@
 </div>
 
   <div *ngFor='let account of accounts'>
-  <img src="{{account.logo}}" alt="{{account.name}}" >
+  <a routerLink="/detail/{{ account.name }}" routerLinkActive="active"><img src="{{account.logo}}" alt="{{account.name}}" > </a>
   </div>
 </div>

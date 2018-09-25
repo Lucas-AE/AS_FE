@@ -31,6 +31,15 @@ export class MockApiService implements IApiService {
     return of(output);
   }
 
+  getAccount(accountName: string): Observable<AE_Account> {
+    if (!this.accounts) {
+      this.getAccounts().subscribe(e => this.accounts = e);
+    }
+
+    let account = this.accounts.filter(e => e.name === accountName)[0];
+    return of(account);
+  }
+
   getFilterItems(selector: string): Observable<string[]> {
     if(!selector) {
       return of([]);

@@ -18,6 +18,8 @@ export class BarometerComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log(this.account);
+
     this.chartData = [
       {
         name: "Partnership",

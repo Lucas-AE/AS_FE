@@ -1,6 +1,7 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { IApiService } from '../../interfaces';
 import { AE_Account } from '../../models/ae_account';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-detail-page',
@@ -9,14 +10,13 @@ import { AE_Account } from '../../models/ae_account';
 })
 export class DetailPageComponent implements OnInit {
 
-  accounts: AE_Account[];
-  kbc_account: AE_Account;
+  account: AE_Account;
 
-  constructor(@Inject('IApiService') private apiService: IApiService) { }
+  constructor(@Inject('IApiService') private apiService: IApiService, private route: ActivatedRoute) { }
 
   ngOnInit() {
-    this.apiService.getAccounts().subscribe(e => this.accounts = e);
-    this.kbc_account = this.accounts.find(a => a.name == "KBC");
+    let accountName = this.route.snapshot.params['account_name'];
+    console.log(accountName)
+    this.apiService.getAccount(accountName).subscribe(e => this.account = e);
   }
-
 }
