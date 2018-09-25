@@ -301,7 +301,7 @@ export let accounts = [
 	},
 	{
         "name": "Argenta",
-        "segment": "",
+        "segment": "Tactisch",
         "sector": "Financial Services",
         "am": "Patrick Van Den Broeck",
         "tm": "Frederick Beernaert",

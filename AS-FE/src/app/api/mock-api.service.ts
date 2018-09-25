@@ -45,14 +45,6 @@ export class MockApiService implements IApiService {
       return of([]);
     }
 
-    if (selector.toLowerCase() === 'sector') {
-      return this.getAllSectors();
-    } else {
-      return of([]);
-    }
-  }
-
-  getAllSectors(): Observable<string[]> {
     if (!this.accounts) {
       this.getAccounts().subscribe(e => this.accounts = e);
     }
@@ -60,8 +52,8 @@ export class MockApiService implements IApiService {
     let output: string[] = [];
 
     this.accounts.map(e => {
-      if(!output.includes(e.sector)) {
-        output.push(e.sector);
+      if(e[selector.toLowerCase()] && !output.includes(e[selector.toLowerCase()])) {
+        output.push(e[selector.toLowerCase()]);
       }
     });
 

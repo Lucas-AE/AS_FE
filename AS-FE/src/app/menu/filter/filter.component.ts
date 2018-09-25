@@ -7,7 +7,7 @@ import { FilterService } from '../../filters/filter.service';
   templateUrl: './filter.component.html',
   styleUrls: ['./filter.component.css']
 })
-export class FilterComponent implements OnInit {
+export class FilterComponent implements OnInit, IObserver {
 
   @Input()
   selector: string;
@@ -21,7 +21,14 @@ export class FilterComponent implements OnInit {
 
   ngOnInit() {
     this.apiService.getFilterItems(this.selector).subscribe(e => this.options = e);
+    this.filterService.subscribeToSubject(this);
     this.selected = this.selector;
+  }
+
+  notify(selector: string, change: string) {
+    if (selector === 'All' && change === 'Reset') {
+      this.selected = this.selector;
+    }
   }
 
   change(option: string) {

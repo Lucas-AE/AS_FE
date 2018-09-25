@@ -5,7 +5,6 @@ export interface IApiService {
     getAccounts(): Observable<AE_Account[]>;
     getAccount(accountName: string): Observable<AE_Account>;
     getFilterItems(selector: string): Observable<string[]>;
-    getAllSectors(): Observable<string[]>;
 }
 
 export interface IObserver {
