@@ -1,0 +1,15 @@
+.chart-info__category-column-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart-info__category-column-img {
+  padding-right: 5px;
+}
+
+.chart-info__category-column-header {
+  font-weight: 700;
+  margin-bottom: 30px;
+}

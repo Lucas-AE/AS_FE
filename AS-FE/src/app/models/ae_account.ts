@@ -72,6 +72,7 @@ export class Barometer {
       this.partnership = partnership;
       this.portfolio = portfolio;
       this.people = people;
+      this.projects = projects;
       this.profitability = profitability;
       this.potentialGrowth = potentialGrowth;
   }

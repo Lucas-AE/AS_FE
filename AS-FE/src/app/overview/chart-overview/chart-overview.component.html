@@ -1,14 +1,24 @@
 <div class="chart-overview">
 
-  <ngb-tabset (tabChange)="setSelectedTab($event)">
-    <ngb-tab title="Partnership" [id]="'partnership'"></ngb-tab>
-    <ngb-tab title="Portfolio" [id]="'portfolio'"></ngb-tab>
-    <ngb-tab title="Projects" [id]="'projects'"></ngb-tab>
-    <ngb-tab title="People" [id]="'people'"></ngb-tab>
-    <ngb-tab title="Profitability" [id]="'profitability'"></ngb-tab>
-    <ngb-tab title="PotentialGrowth" [id]="'potentialGrowth'"></ngb-tab>
-  </ngb-tabset>
+  <div class="chart-overview__tab-bar">
+    <ngb-tabset (tabChange)="setSelectedTab($event)" justify="center">
+      <ngb-tab title="Partnership" [id]="'partnership'"></ngb-tab>
+      <ngb-tab title="Portfolio" [id]="'portfolio'"></ngb-tab>
+      <ngb-tab title="Projects" [id]="'projects'"></ngb-tab>
+      <ngb-tab title="People" [id]="'people'"></ngb-tab>
+      <ngb-tab title="Profitability" [id]="'profitability'"></ngb-tab>
+      <ngb-tab title="Potential Growth" [id]="'potentialGrowth'"></ngb-tab>
+    </ngb-tabset>
+  </div>
 
-  <app-chart [category]="selectedTab" [accountList]="this.accountList"></app-chart>
-  <app-chart-info [category]="selectedTab" [accountList]="this.accountList"></app-chart-info>
+  <div class="chart-overview__tab-content row">
+    <div class="col-5">
+      <app-chart [category]="selectedTab" [accountList]="this.accountList"></app-chart>
+    </div>
+    <div class="col-7">
+      <app-chart-info [category]="selectedTab" [accountList]="this.accountList"></app-chart-info>
+    </div>
+  </div>
+
 </div>
+

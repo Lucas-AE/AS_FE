@@ -1,0 +1,9 @@
+<div class="row chart-info__category-column-header">
+  {{ title }}
+</div>
+
+<div class="chart-info__category-column-content">
+  <div *ngFor="let account of accountList | barometerState:category:state">
+    <img class="chart-info__category-column-img" src="{{account.logo}}" alt="{{account.name}}">
+  </div>
+</div>

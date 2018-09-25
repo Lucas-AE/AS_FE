@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule, Routes } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { MockApiService } from './api/mock-api.service';
 
 import { AppComponent } from './app.component';
@@ -16,6 +18,7 @@ import { SegmentPipe } from './filters/segment.pipe';
 import { FilterSegmentComponent } from './menu/filter-segment/filter-segment.component';
 import { FilterComponent } from './menu/filter/filter.component';
 import { HeaderComponent } from './menu/header/header.component';
+import { CategoryColumnComponent } from './overview/chart-info/category-column/category-column.component';
 import { ChartInfoComponent } from './overview/chart-info/chart-info.component';
 import { ChartOverviewComponent } from './overview/chart-overview/chart-overview.component';
 import { ChartComponent } from './overview/chart/chart.component';
@@ -48,11 +51,14 @@ const appRoutes: Routes = [
     SectorPipe,
     SegmentPipe,
     BarometerStatePipe,
+    CategoryColumnComponent,
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     RouterModule.forRoot(appRoutes),
-    NgbModule
+    NgbModule,
+    NgxChartsModule
   ],
   providers: [
     { provide: 'IApiService', useClass: MockApiService },

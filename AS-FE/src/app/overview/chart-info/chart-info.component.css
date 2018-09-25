@@ -1,0 +1,11 @@
+.chart-info__category-column:not(:last-child) {
+  border-right: 1px solid #dee2e6;
+}
+
+.chart-info__category-column:first-child {
+  border-left: 1px solid #dee2e6;
+}
+
+.chart-info__category-column {
+  padding: 30px;
+}

@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { AfterContentInit, Component, Input, OnInit } from '@angular/core';
 import { NgbTabChangeEvent } from '@ng-bootstrap/ng-bootstrap';
 import { AE_Account } from '../../models/ae_account';
 
@@ -7,19 +7,24 @@ import { AE_Account } from '../../models/ae_account';
   templateUrl: './chart-overview.component.html',
   styleUrls: ['./chart-overview.component.css']
 })
-export class ChartOverviewComponent implements OnInit {
+export class ChartOverviewComponent implements OnInit, AfterContentInit {
 
-  selectedTab: string = 'partnership';
+  selectedTab: string;
 
   @Input()
   accountList: AE_Account[] = [];
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
+    this.selectedTab = 'partnership';
   }
 
   setSelectedTab(event: NgbTabChangeEvent) {
     this.selectedTab = event.nextId;
+  }
+
+  ngAfterContentInit(): void {
   }
 }
