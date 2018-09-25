@@ -26,7 +26,7 @@ export class OverviewPageComponent implements OnInit, IObserver {
   }
 
   notify(selector: string, change: string) {
-    if (selector.toLowerCase() === 'Sector') {
+    if (selector.toLowerCase() === 'sector') {
       this.filterSector = change;
     } else if (selector.toLowerCase() === 'am') {
       this.filterAm = change;
