@@ -1,12 +1,44 @@
-<p>
-  barometer works!
-</p>
+<div class="row">
 <div class="chart">
     <ngx-charts-bar-horizontal
     [results]="chartData"
-    [view]="[700, 400]"
+    [view]="[600, 280]"
     [scheme]="colorScheme"
-    [legend]="true"
+    [legend]="ShowLegend"
     [legendTitle]="'Legende'">
     </ngx-charts-bar-horizontal>
   </div>
+  </div>
+<div class="row" style="font-size:10pt;margin-left:15px;">
+      <div class="col-md-4">
+        <div class="row">
+        <span class="dot1"></span>
+        <span>Partnership</span>
+              </div>
+        <div class="row">
+        <span class="dot4"></span>
+        <span>People</span>
+              </div>
+      </div>
+      <div class="col-md-4">
+        <div class="row">
+        <span class="dot2"></span>
+        <span>Portfolio</span>
+        </div>
+        <div class="row">
+        <span class="dot5"></span>
+        <span>Profitability</span>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="row">
+        <span class="dot3"></span>
+        <span>Projects</span>
+              </div>
+        <div class="row">
+        <span class="dot6"></span>
+        <span>Potential Growth</span>
+        </div>
+      </div>
+
+</div>

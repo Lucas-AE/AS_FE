@@ -12,7 +12,7 @@ export class BarometerComponent implements OnInit {
   account: AE_Account;
   chartData: {name: string, value: number}[];
   colorScheme = {
-    domain: ['#F79E0F', '#000000', '#AAAAAA']
+    domain: ['#FB8B24', '#EAC435', '#650D1B','#0E1428', '#FFA987', '#7B9E89']
   };
 
   constructor() { }

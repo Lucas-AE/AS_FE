@@ -1,0 +1,44 @@
+.dot1 {
+  height: 9px;
+  width: 9px;
+  background-color: #FB8B24;
+  border-radius: 50%;
+  padding-top: auto;
+  display: inline-block;
+}
+
+.dot2 {
+  height: 9px;
+  width: 9px;
+  background-color: #EAC435;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot3 {
+  height: 9px;
+  width: 9px;
+  background-color: #650D1B;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot4 {
+  height: 9px;
+  width: 9px;
+  background-color: #0E1428;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot5 {
+  height: 9px;
+  width: 9px;
+  background-color: #FFA987;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot6  {
+  height: 9px;
+  width: 9px;
+  background-color: #7B9E89;
+  border-radius: 50%;
+  display: inline-block;
+}
