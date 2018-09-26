@@ -9,8 +9,9 @@ import { AE_Account } from '../../models/ae_account';
 })
 export class ChartComponent implements OnInit {
 
-  @Input()
-  accountList: AE_Account[] = [];
+  private _accountList: AE_Account[] = [];
+  private _category: string;
+
   chartData: {name: string, value: number}[];
   colorScheme = {
     domain: ['#508104', '#db8200', '#b64201']
@@ -22,23 +23,40 @@ export class ChartComponent implements OnInit {
   }
 
   @Input()
+  set accountList(list: AE_Account[]){
+    this._accountList = list;
+    this.setChartData();
+  }
+
+  get accountList(): AE_Account[] {
+    return this._accountList;
+  }
+
+  @Input()
   set category(selectedCategory: string) {
+    this._category = selectedCategory;
+    this.setChartData();
+  }
+
+  get category(): string {
+    return this._category;
+  }
+
+  setChartData(): void {
     const barometerFilter = new BarometerStatePipe();
     this.chartData = [
       {
         "name": "OK",
-        "value": barometerFilter.transform(this.accountList, selectedCategory, 'OK').length
+        "value": barometerFilter.transform(this.accountList, this.category, 'OK').length
       },
       {
         "name": "Middelmatig",
-        "value": barometerFilter.transform(this.accountList, selectedCategory, 'Middelmatig').length
+        "value": barometerFilter.transform(this.accountList, this.category, 'Middelmatig').length
       },
       {
         "name": "Niet OK",
-        "value": barometerFilter.transform(this.accountList, selectedCategory, 'Helemaal niet OK').length
+        "value": barometerFilter.transform(this.accountList, this.category, 'Helemaal niet OK').length
       }
     ]
   }
-
-
 }

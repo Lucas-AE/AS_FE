@@ -4,3 +4,6 @@
  background-color: #FFFFFF;
  padding: 10px 10px 10px 10px;
 }
+.segments-overview {
+  min-height: 50%;
+}

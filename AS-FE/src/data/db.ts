@@ -74,12 +74,12 @@ export let accounts = [
             "lastReviewed": ""
         },
         "barometer": {
-            "partnership": "",
-            "portfolio": "",
-            "projects": "",
-            "people": "",
-            "profitability": "",
-            "potentialGrowth": ""
+            "partnership": "OK",
+            "portfolio": "OK",
+            "projects": "OK",
+            "people": "OK",
+            "profitability": "OK",
+            "potentialGrowth": "OK"
         },
         "logo": "callexcell.png"
 	},
@@ -131,7 +131,7 @@ export let accounts = [
             "partnership": "Middelmatig",
             "portfolio": "Middelmatig",
             "projects": "OK",
-            "people": "Middelmatige",
+            "people": "Middelmatig",
             "profitability": "Middelmatig",
             "potentialGrowth": "Helemaal niet OK"
         },
@@ -301,7 +301,7 @@ export let accounts = [
 	},
 	{
         "name": "Argenta",
-        "segment": "",
+        "segment": "Tactisch",
         "sector": "Financial Services",
         "am": "Patrick Van Den Broeck",
         "tm": "Frederick Beernaert",

@@ -19,4 +19,8 @@ export class ApiServiceService implements IApiService {
   getAccounts(): Observable<AE_Account[]> {
     return null;
   }
+
+  getAccount(accountName: string): Observable<AE_Account> {
+    return null;
+  }
 }

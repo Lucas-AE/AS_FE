@@ -12,7 +12,10 @@ import { AE_Account } from '../../models/ae_account';
 export class OverviewPageComponent implements OnInit, IObserver {
 
   accounts: AE_Account[];
-  filter: string;
+
+  filterSector: string;
+  filterAm: string;
+  filterTm: string;
 
   constructor(@Inject('IApiService') private apiService: IApiService,
               @Inject('FilterService') private filterService: FilterService) { }
@@ -23,8 +26,16 @@ export class OverviewPageComponent implements OnInit, IObserver {
   }
 
   notify(selector: string, change: string) {
-    if (selector === 'Sector') {
-      this.filter = change;
+    if (selector.toLowerCase() === 'sector') {
+      this.filterSector = change;
+    } else if (selector.toLowerCase() === 'am') {
+      this.filterAm = change;
+    } else if (selector.toLowerCase() === 'tm') {
+      this.filterTm = change;
+    } else if (selector.toLowerCase() === 'all' && change.toLowerCase() === 'reset') {
+      this.filterSector = '';
+      this.filterAm = '';
+      this.filterTm = '';
     }
   }
 }

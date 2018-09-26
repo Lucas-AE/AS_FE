@@ -1,3 +1,12 @@
 <p>
   barometer works!
 </p>
+<div class="chart">
+    <ngx-charts-bar-horizontal
+    [results]="chartData"
+    [view]="[700, 400]"
+    [scheme]="colorScheme"
+    [legend]="true"
+    [legendTitle]="'Legende'">
+    </ngx-charts-bar-horizontal>
+  </div>

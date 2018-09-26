@@ -25,9 +25,12 @@ import { ChartComponent } from './overview/chart/chart.component';
 import { OverviewPageComponent } from './overview/overview-page/overview-page.component';
 import { SegmentComponent } from './overview/segment/segment.component';
 import { SegmentsOverviewComponent } from './overview/segments-overview/segments-overview.component';
+import { AmPipe } from './filters/am.pipe';
+import { TmPipe } from './filters/tm.pipe';
+import { ResetButtonComponent } from './menu/reset-button/reset-button.component';
 
 const appRoutes: Routes = [
-  { path: 'detail', component: DetailPageComponent },
+  { path: 'detail/:account_name', component: DetailPageComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: OverviewPageComponent }
 ];
@@ -52,6 +55,9 @@ const appRoutes: Routes = [
     SegmentPipe,
     BarometerStatePipe,
     CategoryColumnComponent,
+    AmPipe,
+    TmPipe,
+    ResetButtonComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,11 @@
+.overview-page {
+  height: 100%;
+}
+
+.overview-page__chart-overview {
+  min-height: 50%;
+}
+
+.overview-page__segments-overview {
+  min-height: 50%;
+}
