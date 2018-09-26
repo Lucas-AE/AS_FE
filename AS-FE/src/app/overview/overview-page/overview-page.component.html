@@ -1,4 +1,4 @@
-<div>
-  <app-segments-overview [accounts]="accounts | sector:filterSector | am:filterAm | tm:filterTm"></app-segments-overview>
-  <app-chart-overview [accountList]="accounts | sector:filterSector | am:filterAm | tm:filterTm"></app-chart-overview>
+<div class="overview-page">
+  <app-segments-overview class="overview-page__segments-overview" [accounts]="accounts | sector:filterSector | am:filterAm | tm:filterTm"></app-segments-overview>
+  <app-chart-overview class="overview-page__chart-overview" [accountList]="accounts | sector:filterSector | am:filterAm | tm:filterTm"></app-chart-overview>
 </div>
