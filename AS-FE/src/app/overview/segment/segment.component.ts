@@ -13,6 +13,8 @@ export class SegmentComponent implements OnInit {
 
   @Input()
   name: string;
+  @Input()
+  def: string;
 
   @Input()
   accounts: AE_Account[];
