@@ -1,7 +1,5 @@
-<div>
-  <div style="text-align:center;border:1px solid">
-{{name}}
-</div>
+<div style="padding-right: 10px; padding-left: 10px;">
+  <div class="text-center"><p placement="bottom" ngbTooltip="{{def}}" class="font-weight-bold">{{name}}</p></div>
 
 <div *ngFor='let account of accounts'>
   <img src="{{account.logo}}" alt="{{account.name}}" class="img-fluid" >
