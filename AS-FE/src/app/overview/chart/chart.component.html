@@ -1,9 +1,19 @@
 <div class="chart">
   <ngx-charts-pie-chart
     [results]="chartData"
-    [view]="[700, 400]"
+    [view]="[490, 280]"
+    [labels]="showLabels"
     [scheme]="colorScheme"
-    [legend]="true"
-    [legendTitle]="'Legende'">
+    [animations]="true"
+    [legend]="showLegend"
+    [legendTitle]="''">
   </ngx-charts-pie-chart>
+</div>
+<div class="text-center">
+  <span class="dotgreen"></span>
+  <span class="legend-label-text">OK</span>
+  <span class="dotorange"></span>
+  <span class="legend-label-text"> Middelmatig </span>
+  <span class="dotred"></span>
+  <span class="legend-label-text">Helemaal niet OK</span>
 </div>

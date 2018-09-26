@@ -13,7 +13,7 @@ export class ChartComponent implements OnInit {
   accountList: AE_Account[] = [];
   chartData: {name: string, value: number}[];
   colorScheme = {
-    domain: ['#F79E0F', '#000000', '#AAAAAA']
+    domain: ['#508104', '#db8200', '#b64201']
   };
 
   constructor() { }
