@@ -1,0 +1,28 @@
+.label { border-radius: 50%; font-size: 9px; font-weight: 500; padding: 3px 8px; text-transform: uppercase; }
+
+.dotred {
+  height: 15px;
+  width: 15px;
+  background-color: #b64201;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: inline-block;
+}
+.dotorange {
+  height: 15px;
+  width: 15px;
+  background-color: #db8200;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block;
+}
+.dotgreen {
+  height: 15px;
+  width: 15px;
+  background-color: #508104;
+  border-radius: 50%;
+  margin-right: 5px;
+  display: inline-block;
+}
