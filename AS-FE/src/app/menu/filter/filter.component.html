@@ -1,6 +1,6 @@
 <div ngbDropdown class="d-inline-block">
-  <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>{{selected}}</button>
+  <button class="btn btn-light" id="dropdownBasic1" ngbDropdownToggle>{{selected}}</button>
   <div class="dropdown-menu" ngbDropdownMenu aria-labelledby="dropdownBasic1">
-    <button *ngFor="let option of options" class="dropdown-item" (click)="change(option)">{{option}}</button>
+    <button *ngFor="let option of options" class="dropdown-item"  (click)="change(option)">{{option}}</button>
   </div>
 </div>
