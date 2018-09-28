@@ -379,8 +379,7 @@ export let accounts = [
             "potentialGrowth": "OK"
         },
         "logo": "jan.png"
-	}
-	},
+		},
 	{
         "name": "Lampiris",
         "segment": "Tactisch",
@@ -407,7 +406,7 @@ export let accounts = [
             "potentialGrowth": "OK"
         },
         "logo": "lamp.png"
-	}
+
 	},
 	{
         "name": "Vlaio",
