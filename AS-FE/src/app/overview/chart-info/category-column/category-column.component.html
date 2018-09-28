@@ -4,7 +4,7 @@
 
 <div class="chart-info__category-column-content">
   <div *ngFor="let account of accountList | barometerState:category:state">
-    <div><span class="badge badge-dark">{{account.name}}</span></div>
+    <div style="padding: 1px 3px;"><span class="badge badge-dark">{{account.name}}</span></div>
   </div>
 </div>
 <div class="text-center"><p placement="bottom" ngbTooltip="{{def}}" class="font-weight-bold">{{name}}</p></div>
