@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  isHomePage: boolean;
 
-  ngOnInit() {
+  constructor(private router: Router) {
+    router.events.subscribe(val => {
+      if (val instanceof NavigationEnd) {
+        this.isHomePage = (this.router.url === '/home');
+      }
+    })
   }
 
+  ngOnInit() { }
 }
