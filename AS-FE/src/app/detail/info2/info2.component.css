@@ -1,19 +1,7 @@
-tr > td:first-child {
-    font-weight: bold;
-}
-
-table {
-    padding: 10px;
-    width: 100%;
-}
-
-.table-container {
-    padding: 20px;
-}
-
 .container.container-rounded {
     border-radius: 10px;
     box-shadow: 0 0 1px rgba(1, 1, 1, 0.7);
     background-color: #FFFFFF;
     padding: 10px 10px 10px 10px;
+    width: 100%;
    }

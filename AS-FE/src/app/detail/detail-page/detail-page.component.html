@@ -1,11 +1,29 @@
 <div class="row">
   <div class="col-8">
-  <app-info [account]='account'></app-info>
+    <div class="card-group">
+      <app-info [account]='account'></app-info>
+    </div>
   </div>
+  <br>
   <div class="col-4">
-  <app-barometer [account]='account'></app-barometer>
+    <app-barometer [account]='account'></app-barometer>
+  </div>
 </div>
-</div>
+
+<br>
+
 <div class="row">
+  <div class="col-12">
+    <div class="card-group">
+      <app-info2 [account]='account'></app-info2>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="col-12">
     <app-historiek></app-historiek>
+  </div>
 </div>

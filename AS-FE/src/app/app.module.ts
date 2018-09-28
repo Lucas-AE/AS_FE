@@ -28,6 +28,7 @@ import { SegmentsOverviewComponent } from './overview/segments-overview/segments
 import { AmPipe } from './filters/am.pipe';
 import { TmPipe } from './filters/tm.pipe';
 import { ResetButtonComponent } from './menu/reset-button/reset-button.component';
+import { Info2Component } from './detail/info2/info2.component';
 
 const appRoutes: Routes = [
   { path: 'detail/:account_name', component: DetailPageComponent },
@@ -58,6 +59,7 @@ const appRoutes: Routes = [
     AmPipe,
     TmPipe,
     ResetButtonComponent,
+    Info2Component,
   ],
   imports: [
     BrowserModule,
