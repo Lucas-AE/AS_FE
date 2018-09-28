@@ -1,7 +1,9 @@
+<div class="text-center"><p placement="bottom" ngbTooltip="{{def}}" class="font-weight-bold">{{name}}</p></div>
 <div style="padding-right: 10px; padding-left: 10px;">
-  <div class="text-center"><p placement="bottom" ngbTooltip="{{def}}" class="font-weight-bold">{{name}}</p></div>
+  <div class="card-group">
+      <div class="col-4"  *ngFor="let account of accounts">
 
-    <div *ngFor='let account of accounts'>
-    <a routerLink="/detail/{{ account.name }}" routerLinkActive="active"><img class="img-fluid" src="{{account.logo}}" alt="{{account.name}}"> </a>
+            <a routerLink="/detail/{{ account.name }}" routerLinkActive="active"><img class="img-fluid" src="{{account.logo}}" alt="{{account.name}}"> </a>
+          </div>
+      </div>
   </div>
-</div>

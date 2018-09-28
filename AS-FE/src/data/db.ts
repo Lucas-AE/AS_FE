@@ -325,5 +325,114 @@ export let accounts = [
             "potentialGrowth": "OK"
         },
         "logo": "argenta.png"
+	},
+	{
+        "name": "BNP Paribas Fortis",
+        "segment": "Startup",
+        "sector": "Financial Services",
+        "am": "Jan Jansens",
+        "tm": "Pieter Pieters",
+        "hrProxy": "Dana Daans",
+        "nrOfPersons": 5,
+        "links": {
+            "wiki": "https://aewiki.atlassian.net/wiki/spaces/AC/pages/145315612",
+            "powerbi": "https://powerbi.microsoft.com/en-us/",
+            "beehive": "https://beehive.ae.be/",
+            "targetprocess": "https://www.targetprocess.com/"
+        },
+        "history": {
+            "lastReviewed": "05/2018"
+        },
+        "barometer": {
+            "partnership": "Ok",
+            "portfolio": "Ok",
+            "projects": "OK",
+            "people": "Ok",
+            "profitability": "OK",
+            "potentialGrowth": "OK"
+        },
+        "logo": "bnp.png"
+	},
+	{
+        "name": "Janssen Pharmaceutica",
+        "segment": "Startup",
+        "sector": "OI Oost",
+        "am": "Nick Pelicaen",
+        "tm": "Davy Sannen",
+        "hrProxy": "Dana Daans",
+        "nrOfPersons": 5,
+        "links": {
+            "wiki": "https://aewiki.atlassian.net/wiki/spaces/AC/pages/145315612",
+            "powerbi": "https://powerbi.microsoft.com/en-us/",
+            "beehive": "https://beehive.ae.be/",
+            "targetprocess": "https://www.targetprocess.com/"
+        },
+        "history": {
+            "lastReviewed": "05/2018"
+        },
+        "barometer": {
+            "partnership": "Ok",
+            "portfolio": "Ok",
+            "projects": "OK",
+            "people": "Middelmatig",
+            "profitability": "OK",
+            "potentialGrowth": "OK"
+        },
+        "logo": "jan.png"
+		},
+	{
+        "name": "Lampiris",
+        "segment": "Tactisch",
+        "sector": "Utilities",
+        "am": "Kirsten Rochtus",
+        "tm": "Marion Wind",
+        "hrProxy": "Liesbet Van Nerum",
+        "nrOfPersons": 70,
+        "links": {
+            "wiki": "https://aewiki.atlassian.net/wiki/spaces/AC/pages/145315612",
+            "powerbi": "https://powerbi.microsoft.com/en-us/",
+            "beehive": "https://beehive.ae.be/",
+            "targetprocess": "https://www.targetprocess.com/"
+        },
+        "history": {
+            "lastReviewed": "05/2018"
+        },
+        "barometer": {
+            "partnership": "Middelmatig",
+            "portfolio": "Middelmatig",
+            "projects": "OK",
+            "people": "Ok",
+            "profitability": "Middelmatig",
+            "potentialGrowth": "OK"
+        },
+        "logo": "lamp.png"
+
+	},
+	{
+        "name": "Vlaio",
+        "segment": "Tactisch",
+        "sector": "West",
+        "am": "Michael Degrez",
+        "tm": "Christophe Bonduelle",
+        "hrProxy": "Liesbet Van Nerum",
+        "nrOfPersons": 15,
+        "links": {
+            "wiki": "https://aewiki.atlassian.net/wiki/spaces/AC/pages/145315612",
+            "powerbi": "https://powerbi.microsoft.com/en-us/",
+            "beehive": "https://beehive.ae.be/",
+            "targetprocess": "https://www.targetprocess.com/"
+        },
+        "history": {
+            "lastReviewed": "05/2018"
+        },
+        "barometer": {
+            "partnership": "Middelmatig",
+            "portfolio": "Middelmatig",
+            "projects": "Middelmatig",
+            "people": "Ok",
+            "profitability": "Middelmatig",
+            "potentialGrowth": "Helemaal niet OK"
+        },
+        "logo": "vlaio.png"
 	}
 ]
